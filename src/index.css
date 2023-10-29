@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body,
+html {
+    background-color: #191919;
+    overflow-x: hidden;
+}
