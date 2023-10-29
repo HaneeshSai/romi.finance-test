@@ -26,9 +26,9 @@ export default function NavBar({ scrSize }) {
   const [toggleCW, setToggleCW] = useState(false);
   const navClick = (a) => {
     console.log(a);
-    if (a === 0) navigate("/");
-    else if (a === 1) navigate("/DashBoard");
-    else if (a === 3) navigate("/earn");
+    if (a === 0) navigate("/romi.finance-test/");
+    else if (a === 1) navigate("/romi.finance-test/DashBoard");
+    else if (a === 3) navigate("/romi.finance-test/earn");
   };
 
   const togleHam = () => {

@@ -32,9 +32,15 @@ export default function App() {
     <>
       <NavBar scrSize={screenSize} />
       <Routes>
-        <Route path="/" element={<HomePage scrSize={screenSize} />} />
-        <Route path="/DashBoard" element={<DashBoard scrSize={screenSize} />} />
-        <Route path="/earn" element={<Earn />} />
+        <Route
+          path="/romi.finance-test/"
+          element={<HomePage scrSize={screenSize} />}
+        />
+        <Route
+          path="/romi.finance-test/DashBoard"
+          element={<DashBoard scrSize={screenSize} />}
+        />
+        <Route path="/romi.finance-test/earn" element={<Earn />} />
       </Routes>
       <Footer />
     </>
