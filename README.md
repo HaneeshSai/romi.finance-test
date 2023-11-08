@@ -1,8 +1,14 @@
-# React + Vite
+# Crypto Landing page clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*This was an assignment given to me for an internship opportunity*
 
-Currently, two official plugins are available:
+Cloned a few pages of a Crypto Page called [Zomi Finance](https://zomi.finance/#/). I was told to clone the **Homepage**, **Dashboard** and the **Earn** pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I used ReactJS, tailwindCSS, Donut chart from Chart.js for the UI. react-router-dom for the Routing.
+
+### To Run The Code Locally
+
+download the code and extract in your device.
+```npm i``` or ```npm install``` for installing the required node_modules
+
+```npm run dev``` to run the code 
